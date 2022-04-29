@@ -1124,6 +1124,12 @@ body.offcanvas {
   background: #fafafa;
   position: relative; }
 
+.img-responsive{
+  width: 450px;
+  height: 400px;
+}
+
+
 .pagination {
   padding: 0; }
   .pagination li {
