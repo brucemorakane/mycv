@@ -67,10 +67,10 @@ figure {
   color: #fff;
   background: #2c98f0; }
 
-#colorlib-page {
+/* #colorlib-page {
   width: 100%;
   overflow: hidden;
-  position: relative; }
+  position: relative; } */
 
 #colorlib-aside {
   padding-top: 3em;
@@ -216,12 +216,12 @@ figure {
             color: #2c98f0; }
 
 .container-wrap {
-  max-width: 1170px;
+  max-width: 900px;
   margin: 0 auto; }
 
 #colorlib-main {
   width: calc(100% - 300px);
-  float: right;
+ 
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -230,13 +230,13 @@ figure {
       width: 100%;
       padding: 0 1em; } }
 
-#colorlib-hero {
+/* #colorlib-hero {
   min-height: 500px;
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
   margin-bottom: 10em;
-  clear: both; }
+  clear: both; } */
   #colorlib-hero .flexslider {
     border: none;
     z-index: 1;
@@ -248,7 +248,7 @@ figure {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom center;
-        min-height: 200;
+        min-height: 400px;
         position: relative; }
     #colorlib-hero .flexslider .flex-control-nav {
       bottom: 20px;
@@ -366,10 +366,8 @@ body.offcanvas {
   padding: 0 2.5em; }
   @media screen and (max-width: 768px) {
     .colorlib-narrow-content {
-      padding: 0;
-    color: #000;
-  border: bold; } }
-      
+      padding: 0; } }
+
 .no-gutters {
   margin: 0;
   padding: 0; }
